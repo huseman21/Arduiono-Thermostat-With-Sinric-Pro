@@ -50,11 +50,11 @@ int onetime=1;
 
 
 
-#define WIFI_SSID         "Mtorabit2.4g"    
-#define WIFI_PASS         "@voyager42211"
-#define APP_KEY           "e45ea5d9-5e66-44a5-a5d7-14d549ae1295"      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
-#define APP_SECRET        "65675679-0a26-4c20-8ef3-9bc5e4d745d6-573c5aa5-d039-43c5-848c-623e6c473c86"   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
-#define THERMOSTAT_ID     "5ffc1d2ddfd58f56bc43b275"    // production Thermostat
+#define WIFI_SSID         "yourwifissid"    
+#define WIFI_PASS         "yourpassword"
+#define APP_KEY           "yourappkey"      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
+#define APP_SECRET        "yourappsecret"   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
+#define THERMOSTAT_ID     "thermostatid"    // production Thermostat
 #define BAUD_RATE         9600                 // Change baudrate to your need
 #define EVENT_WAIT_TIME  60000          // send event every 60 seconds 60000   120000 
 #define DHT_PIN    2   // DHT temp sensor pin 
